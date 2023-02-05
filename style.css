@@ -1,0 +1,36 @@
+h4 {
+  margin-bottom: 0.7rem;
+}
+hr {
+  margin-bottom: 0.7rem;
+}
+
+@media (max-width: 576px) {
+  .pr-12 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 3rem 0 0;
+    padding: 0;
+  }
+}
+@media (max-width: 992px) {
+  div #flex {
+    margin: 0 auto;
+  }
+  #pr-12,
+  h2.text-4xl {
+    margin-top: 2rem;
+  }
+  #pr-10 {
+    margin-top: 1rem;
+  }
+  #img-2 {
+    margin: auto;
+    min-width: 100%;
+  }
+  polygon {
+    display: none;
+  }
+}
